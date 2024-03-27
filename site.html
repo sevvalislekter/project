@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java</title>
+   
+</head>
+<body>
+    
+    <style>
+        .red-text{
+            color:red;
+        }
+        h2{
+            font-family:monospace;
+        }
+        p{
+            font-size: 16px;
+            font-family: monospace,italic;
+
+        }.thick{
+            border-color: green;
+            border-width: 10px;
+            border-style: solid;
+            border-radius: 50%;
+        }
+        .smaller{
+            width: 100px;
+        }
+    </style>
+    <h2 class="red-text">Cats</h2>
+    <p>click here for <a href="#">cats photos</a>.</p>
+    <a href="#"><img class="smaller thick" src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="a cute orange cat lying on this couch"></a>
+
+    <p><b>cats  </b>likes:</p>
+    <ul>
+        <li>nip</li>
+        <li>laser pointers</li>
+        <li>laganas</li>
+    
+    </ul>
+    <p><b>cats</b> hates:</p>
+    <ul>
+        <li>flea treatment</li>
+        <li>other cats</li>
+        <li>thunder</li>
+
+    </ul>
+    <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" >Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"></label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+    <label><input type="checkbox" name="personality"> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Crazy</label>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
