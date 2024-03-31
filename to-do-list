@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <style>
+        .back{
+            background-color: antiquewhite;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="back" >
+        <input type="text" placeholder="enter a task">
+        <button>girin</button>
+    </div>
+    
+        <label ><input type="checkbox">answer your emails</label><br>
+        <label><input type="checkbox">call your mom for birthday</label><br>
+        <label><input type="checkbox">wake up in the morning</label><br>
+</body>
+</html>
