@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+  
+</head>
+<body>
+
+  <input type="number" id="sayi1" placeholder="1.sayi">
+  <label for="işlemler">işlem seç</label>
+  <select id="işlemler">
+    <option value="topla">+</option>
+    <option value="cıkar">-</option>
+    <option value="carp">*</option>
+    <option value="bol">/</option>
+  </select>
+  <input type="number" id="sayi2" placeholder="2.sayi">
+  <button type="button" onclick="fonk()">Hesapla!</button>
+
+  <script>
+    var btnh;
+    var sonuc;
+    function fonk(){
+        var islem=document.getElementById( "işlemler").value;
+        var s1=Number(document.getElementById("sayi1").value);
+        var s2=Number(document.getElementById("sayi2").value);
+
+        if(islem=="topla"){
+            sonuc=s1+s2;
+        }else if(islem=="cıkar"){
+            sonuc=s1-s2;
+        }else if(islem=="carp"){
+            sonuc=s1*s2;
+        }else if(islem=="bol"){
+            sonuc=s1/s2;
+        }else{
+            alert("secim yapın");
+        }
+        alert("sonuc:"+sonuc);
+    }
+  </script>
+
+</body>
+</html>
